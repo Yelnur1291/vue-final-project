@@ -1,0 +1,23 @@
+.contact-wrapper {
+    margin-top: 50px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    &_image {
+        width: 450px;
+        height: 500px;
+    }
+    &_maintitle {
+        font-size: 36px;
+    }
+    &_title {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    &_text {
+        font-size: 16px;
+    }
+}

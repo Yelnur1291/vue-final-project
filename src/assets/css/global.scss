@@ -1,0 +1,64 @@
+@import url('http://fonts.cdnfonts.com/css/clash-display');
+@import url("https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Satoshi';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Clash Display';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39.36px;
+
+}
+p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    display: inline-block;
+    height: 56px;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+button:hover {
+    background-color: midnightblue;
+    color: white;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}

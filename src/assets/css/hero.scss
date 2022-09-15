@@ -1,0 +1,27 @@
+.hero {
+    background-image: url("/../knew-it-final-project/src/assets/images/hero-blocks.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 710px;
+    position: relative;
+    &-blockinside {
+        background-color:#FFFFFF;
+        width: 630px;
+        height: 444px;
+        position: absolute;
+        top: 135px;
+        right: 80px;
+        &_title {
+            padding: 48px 61px 0 56px;
+        }  
+        &_text {
+            padding: 20px 0 0 56px;
+        }   
+        &_button { 
+        font-weight: 400;
+        margin-left: 56px;
+        margin-top: 157px;
+        border: 0;
+        }  
+    }
+}

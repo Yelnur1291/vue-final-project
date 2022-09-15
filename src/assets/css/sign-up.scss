@@ -1,0 +1,52 @@
+.sign-up {
+  background-image: url(./../../assets/images/sign-up-background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 444px;
+  display: flex;
+
+  &-wrapper {
+    width: 494px;
+    height: 165px;
+    text-align: center;
+    padding-top: 97px;
+    color: #ffffff;
+    &_text {
+      margin: 12px 12px 0 12px;
+      line-height: 27px;
+    }
+    &_items {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      display: flex;
+      gap: 36px;
+    }
+    &_item {
+      display: flex;
+      gap: 8px;
+      &-text {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    &_input {
+      width: 354px;
+      height: 56px;
+      padding-left: 32px;
+    }
+    &_btn {
+      width: 118px;
+      height: 56px;
+      border: 0;
+      background-color: #4e4d93;
+      color: #ffffff;
+      transition: 300ms ease;
+    }
+
+    &_btn:hover {
+      background-color: #ffffff;
+      color: #4e4d93;    
+      border: 3px solid #4e4d93;  
+    }
+  }
+}

@@ -1,0 +1,70 @@
+img {
+  width: 16px;
+  height: 16px;
+}
+
+.header {
+  &-wrapper {
+    width: 1386px;
+    height: fit-content;
+    &_items {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      &-logo {
+        text-decoration: none;
+        color: #22202e;
+        font-family: "Clash Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+      }
+    }
+    &_navigation{
+      width: 1386px;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);;
+    }
+    &_item {
+      width: 48px;
+      height: 16px;
+      display: flex;
+      justify-content: space-between;
+      &-basket {
+        position: relative;
+        &_mark {
+          position: absolute;
+          top: -7px;
+          left: -15;
+          font-size: 13px ;
+          font-weight: 700;      
+        }
+      }
+    }
+  }
+}
+
+.nav-menu {
+  text-decoration: none;
+  justify-content: center;
+  color: #726E8D;
+  display: flex;
+  gap: 20px;
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  &__item {
+    transition: 300 ease;
+  }
+  &__item:hover {
+    color: red;
+    font-size: 20px;
+  }
+}
+

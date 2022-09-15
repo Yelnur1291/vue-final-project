@@ -1,0 +1,87 @@
+.details {
+    &-wrapper {
+        color: #2A254B;;
+        margin: 50px 0 47px 80px;
+        display: flex;
+        gap: 65px;
+        &_img {
+            width: 607px;
+            height: 661px;
+        }
+        &_info {
+            &-title {
+                padding-top: 31px;
+                font-size: 36px;
+                line-height: 44px;
+            }
+            &-price {
+                font-size: 24px;
+                line-height: 32px;
+            }
+            &-desc-box {
+                margin-top: 28px;
+                max-width: 518px;
+                border-top: 1px solid #EBE8F4;
+                &_title {
+                    padding-top: 24px;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+                &_text {
+                    padding-top: 14px;
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+            }
+        }
+        &_dimensions {
+            margin-top: 36px;
+            &-title {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            &-title2 {
+                font-size: 14px;
+                line-height: 17px;
+            }
+            &-boxes {
+                margin-top: 24px;
+                display: flex;
+                
+            }
+            &-height, &-width, &-depth {
+                width: 108px;
+                
+            }              
+            &-width, &-depth {
+                align-items: center;
+                text-align: center;
+                border-left: 1px solid #EBE8F4;
+            }
+            &-text {
+                font-size: 16px;
+                line-height: 22px;
+            }
+
+        }
+    }
+}
+.cart {
+    margin-top: 40px;
+    &-btn {
+        background-color: #2A254B;
+        color: #FFFFFF;
+        transition: 300 ease;
+    }
+    &-btn:hover {
+        background-color: #FFFFFF;
+        color: #2A254B;
+        border: 1px solid #2A254B;
+    }
+}
+.product-comp_title {
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 80px;
+    margin-left: 7.5%;
+}

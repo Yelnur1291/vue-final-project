@@ -1,0 +1,40 @@
+.about {
+    &-wrapper {
+        &_title {
+           text-align: center;
+           margin: 67px 0 79px 0;
+           font-size: 32px;
+           line-height: 50.4px;
+        }
+        &_item {            
+            display: flex;
+            flex-wrap: wrap;
+            height: fit-content;
+            &-description {
+                width: 720px;
+                &_box {
+                    width: 536px;
+                    height: 225px;
+                    text-align: left;
+                    margin: 72px 0 0 84px;
+                }
+                &-title {
+                    text-align: left;
+                    font-size: 24px;
+                    line-height: 33.6px;
+                    margin-bottom: 25px;
+                    color: #2A254B;                    
+                }
+                &-text {
+                    color: #505977;
+                    font-size: 16px;
+                    line-height: 21.6px;
+                }
+            }
+            &-image {
+                width: 720px;
+                height: 603px;
+            }
+        }
+    }
+}
